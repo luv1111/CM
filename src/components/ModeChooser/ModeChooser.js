@@ -45,7 +45,7 @@ export default (props) => {
         /div> <
         div className = { classes.root } >
         <
-        Grid className = 'grid'
+        Grid className = 'grid' className= 'box_main'
         container spacing = { 2 } >
         <
         Grid item xs = { 12 }
