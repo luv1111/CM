@@ -1,6 +1,8 @@
 ![Screenshot Pro](../assets/Pro.png)
 
-## Available Scripts
+## PICFLIX.AI
+
+PicFlix.ai is a browser-based application that uses neural style transfer. It's a tensorflow.js model that supports neural style transfer at its core. As with any other neural style transfer model, it accepts a content image and a style picture and produces a content image drawn in the style of the style image. As a result, using an art work as a style picture, we can turn a regular content image into an artistified one.
 
 In the project directory, you can run:
 
