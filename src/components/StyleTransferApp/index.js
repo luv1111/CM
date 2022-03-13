@@ -165,6 +165,10 @@ class StyleTransferApp extends React.Component {
                             </Popover>
 
                             <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                             <Slider
                                 className={classes.formControl}
                                 sliderChangeHandler={this.onSliderValueChange}
