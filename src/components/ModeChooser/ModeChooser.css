@@ -16,3 +16,10 @@
 .grid {
     margin-left: 400px;
 }
+
+
+.box_main {
+    display: flex;
+    justify-content: center;
+}
+
