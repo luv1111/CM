@@ -1,0 +1,42 @@
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import HomeLite from './components/Home/HomeLite';
+
+import ModeChooser from './components/ModeChooser/ModeChooser';
+import { Helmet } from "react-helmet";
+
+
+import './App.css';
+
+function App() {
+    return ( <
+        div className = "App" >
+
+        <
+        Helmet >
+        <
+        meta charSet = "utf-8" / >
+        <
+        title > PicFlix < /title> <
+        link rel = "canonical"
+        href = "http://mysite.com/example" / >
+        <
+        /Helmet> <
+        BrowserRouter basename = '/picflix' >
+        <
+        Switch >
+        <
+        Route exact path = "/"
+        component = { ModeChooser }
+        /> <
+        Route path = "/lite"
+        component = { HomeLite }
+        />  < /
+        Switch > <
+        /BrowserRouter> < /
+        div >
+    );
+}
+
+export default App;
